@@ -68,9 +68,9 @@ input {
 .fl { float: left; }
 .fr { float: right; }
 
-.address_icon { background: url(../img/footer/icon-address-off.png) no-repeat top left; }
-.tel_icon { background: url(../img/footer/icon-tel-off.png) no-repeat top left; }
-.mail_icon { background: url(../img/footer/icon-mail-off.png) no-repeat top left; }
+.address_icon { background: url(../img/footer/icon-address-off.png) no-repeat center left; }
+.tel_icon { background: url(../img/footer/icon-tel-off.png) no-repeat center left; }
+.mail_icon { background: url(../img/footer/icon-mail-off.png) no-repeat center left; }
 /* ---base end--- */
 
 /* ---btn start--- */
@@ -130,8 +130,8 @@ header { min-width: 1210px; }
 }
 
 .header_top_address_link:hover { color: #00bc9c; }
-.header_top_address_link.mail_icon:hover { background: url(../img/footer/icon-mail-on.png) no-repeat top left; }
-.header_top_address_link.tel_icon:hover { background: url(../img/footer/icon-tel-on.png) no-repeat top left; }
+.header_top_address_link.mail_icon:hover { background: url(../img/footer/icon-mail-on.png) no-repeat center left; }
+.header_top_address_link.tel_icon:hover { background: url(../img/footer/icon-tel-on.png) no-repeat center left; }
 
 .header_top_sns > li { display: inline-block; }
 
@@ -172,18 +172,19 @@ header { min-width: 1210px; }
 .header_top_sns_link.dribbble:hover::before { background:  url(../img/header/icon-dribbble-on.png) no-repeat center; }
 
 .header_bottom {
-  display: table;
-  padding: 35px 0;
   width: 1170px;
   margin: 0 auto;
+  padding: 35px 0;
 }
 
 .header_bottom_logo,
 .header_bottom_menu {
-  display: table-cell;
-  vertical-align: middle;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
+
+.header_bottom_logo { margin-right: 88px; }
 
 .header_bottom_menu_list > li {
   display: inline-block;
@@ -191,7 +192,7 @@ header { min-width: 1210px; }
   margin-left: 44px;
 }
 
-.header_bottom_menu_list > li:first-child { margin-left: 88px; }
+.header_bottom_menu_list > li:first-child { margin-left: 0;}
 .header_bottom_logo:hover { opacity: .6; }
 .header_bottom_menu_link:hover { color: #00bc9c; }
 /* ---header end--- */
@@ -242,9 +243,9 @@ header { min-width: 1210px; }
   display: inline-block;
 }
 
-.passion { background: url(../img/main/description-passion.png) no-repeat top left; }
-.creativity { background: url(../img/main/description-creativity.png) no-repeat top left; }
-.quality { background: url(../img/main/description-quality.png) no-repeat top left; }
+.passion { background: url(../img/main/description-passion.png) no-repeat center left; }
+.creativity { background: url(../img/main/description-creativity.png) no-repeat center left; }
+.quality { background: url(../img/main/description-quality.png) no-repeat center left; }
 /* ---description end--- */
 
 /* ---work start--- */
@@ -447,9 +448,9 @@ footer {
   margin-bottom: 10px;
 }
 
-.address_inner_link.address_icon:hover { background: url(../img/footer/icon-address-on.png) no-repeat top left; }
-.address_inner_link.tel_icon:hover { background: url(../img/footer/icon-tel-on.png) no-repeat top left; }
-.address_inner_link.mail_icon:hover { background: url(../img/footer/icon-mail-on.png) no-repeat top left; }
+.address_inner_link.address_icon:hover { background: url(../img/footer/icon-address-on.png) no-repeat center left; }
+.address_inner_link.tel_icon:hover { background: url(../img/footer/icon-tel-on.png) no-repeat center left; }
+.address_inner_link.mail_icon:hover { background: url(../img/footer/icon-mail-on.png) no-repeat center left; }
 .address_inner_link:hover { color: #00bc9c; }
 
 .footer_top_form {
